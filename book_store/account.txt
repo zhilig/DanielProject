@@ -1,0 +1,18 @@
+DROP TABLE pet_account;
+
+CREATE TABLE pet_account 
+(
+userid NUMBER(12) NOT NULL,
+username VARCHAR2(100) NOT NULL ,
+password VARCHAR2(18) NOT NULL,
+email VARCHAR2(100) NOT NULL ,
+phone VARCHAR2(15) NOT NULL,
+company VARCHAR2(100) ,
+address VARCHAR2(100) ,
+PRIMARY KEY (username)
+) ;
+
+INSERT INTO pet_account VALUES (1, 'admin', 'admin', 'adminadminau', '0123456789', '123aa', '123aa');
+INSERT INTO pet_account VALUES (2, 'guest', 'guest', 'guestguestau', '9876543210', '123bb', '123bb');
+
+commit;
