@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="category.xsl"?>
+<Catalog>
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name: Luckiest Girl Alive</Name><<!--level 3 nesting -->
+          <Author>Author: Jessica Knoll</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:1st June 2015 </Published>
+          <Price>Price: current $29.99 now $20.99 </Price>
+	 </Information>
+    <Photo>Luckiest Girl Alive.jpg</Photo>	
+</book>
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name: Paper Towns</Name><<!--level 3 nesting -->
+          <Author>Author: John Green</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <age>For Ages: 14+ years old</age>
+		  <Published>Published:1st June 2015 </Published>
+          <Price>Price: Film Tie-in Edition $19.99 </Price>
+	 </Information>
+    <Photo>Paper Towns.jpg</Photo>	
+</book>
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name: The Dust That Falls from Dreams</Name><<!--level 3 nesting -->
+          <Author>Author: Louis de Bernieres</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:1st June 2015 </Published>
+          <Price>Price: $32.99 </Price>
+	 </Information>
+    <Photo>The Dust That Falls from Dreams.jpg</Photo>	
+</book>
+
+
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name:Live Well on Less</Name><<!--level 3 nesting -->
+          <Author>Author: Jody Allen</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:27th May 2015 </Published>
+          <Price>Price: current $24.99, now $19.00 </Price>
+	 </Information>
+    <Photo>Live Well on Less.jpg</Photo>	
+</book>
+
+
+
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name:Eat Real Food</Name><<!--level 3 nesting -->
+          <Author>Author: : David Gillespie</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:1st April 2015 </Published>
+          <Price>Price:$29.99 </Price>
+	 </Information>
+    <Photo>Eat Real Food.jpg</Photo>	
+</book>
+
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name:My Life</Name><<!--level 3 nesting -->
+          <Author>Author: : Willie Nelson</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:26th May 2015 </Published>
+          <Price>Price:$32.99 </Price>
+	 </Information>
+    <Photo>My Life.jpg</Photo>	
+</book>
+
+
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->        
+          <Name>Name:Magnus Chase and the Sword of Summer</Name><<!--level 3 nesting -->
+          <Author>Author: : Rick Riordan </Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:7th October 2015 </Published>
+          <Price>Price: current $19.99, now 15.99 </Price>
+	 </Information>
+    <Photo>:Magnus Chase and the Sword of Summer.jpg</Photo>	
+</book>
+
+
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->        
+          <Name>Name:Clementine Rose Clementine Rose and the Birthday Emergency</Name><<!--level 3 nesting -->
+          <Author>Author: : Jacqueline Harvey</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:1st July 2015 </Published>
+          <Price>Price:$12.99 </Price>
+	 </Information>
+    <Photo>Clementine Rose Clementine Rose and the Birthday Emergency.jpg</Photo>	
+</book>
+
+
+
+
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name:Middle School : Just My Rotten Luck</Name><<!--level 3 nesting -->
+          <Author>Author: :James Patterson</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:1st April 2015 </Published>
+          <Price>Price:$15.99</Price>
+	 </Information>
+    <Photo>Middle School : Just My Rotten Luck.jpg</Photo>	
+</book>
+
+
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name:Introduction to Computational Science</Name><<!--level 3 nesting -->
+          <Author>Author: :: Angela B. Shiflet, George W. Shiflet</Author>
+		  <Language>Language: English </Language>>
+		  <Format> Hardcover</Format>
+		  <Published>Published:2nd May 2006</Published>
+          <Price>Price:current $142.75, now 132.75</Price>
+	 </Information>
+    <Photo>Introduction to Computational Science.jpg</Photo>	
+</book>
+
+
+
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name:Fundamentals of Digital Logic with VHDL Design</Name><<!--level 3 nesting -->
+          <Author>Author: :Stephen Brown, Zvonko G. Vranesic</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:14th April 2008 </Published>
+          <Price>Price:$190.25</Price>
+	 </Information>
+    <Photo>Fundamentals of Digital Logic with VHDL Design.jpg</Photo>	
+</book>
+
+
+
+
+
+
+<book> <!-- level 1 nesting -->
+    <Information> <!-- level 2 nesting -->
+          
+          <Name>Name:Distributed Systems</Name><<!--level 3 nesting -->
+          <Author>Author: :Andrew S. Tanenbaum, Maarten Van Steen</Author>
+		  <Language>Language: English </Language>>
+		  <Format>Paperback </Format>
+		  <Published>Published:26th July 2013 </Published>
+          <Price>Price:$197.80</Price>
+	 </Information>
+    <Photo>Distributed Systems.jpg</Photo>	
+</book>
+
+
+
+
+
+</Catalog>

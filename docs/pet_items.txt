@@ -1,0 +1,39 @@
+DROP TABLE pet_item;
+
+CREATE TABLE pet_item (
+nstate NUMBER(6) NOT NULL,
+id NUMBER(6) NOT NULL,
+name VARCHAR2(100) NOT NULL ,
+type VARCHAR2(100) NOT NULL ,
+bleed VARCHAR2(100) ,
+sex VARCHAR2(100) NOT NULL ,
+pet_size VARCHAR2(100) NOT NULL ,
+color VARCHAR2(100) NOT NULL ,
+price DECIMAL(10,2) NOT NULL ,
+age VARCHAR2(100) NOT NULL ,
+tag VARCHAR2(100) ,
+photo_l VARCHAR2(100) NOT NULL ,
+photo_s VARCHAR2(100) NOT NULL ,
+PRIMARY KEY (id)
+) ;
+
+INSERT INTO pet_item VALUES (0, 1, 'Blackie', 'Dog', '', 'female', 'large', 'Black', '500.00', '5 months old', '', 'black-dog-small.jpg', 'black-dog-thumbnail.jpg');
+INSERT INTO pet_item VALUES (0, 2, 'Blanket', 'Dog', 'Terrier cross boxer', 'male', 'large', 'Golden', '500.00', 'Adult 1yr', '', 'boxer-dog-lying-down-small.jpg', 'boxer-dog-lying-down-thumbnail.jpg');
+INSERT INTO pet_item VALUES (1, 3, 'Juicy', 'Cat', 'Domestic Long Hair cross', 'male', 'large', 'Dark Brown', '200.00', 'Adult 1yr', 'desexed, vaccinated, wormed, microchipped, flea treated', 'cat2-small.jpg', 'cat2-thumbnail.jpg');
+INSERT INTO pet_item VALUES (1, 4, 'Edie', 'Cat', 'Abyssinian cross', 'male', 'large', 'White/Black/Brown', '200.00', 'Adult 1yr', 'desexed, vaccinated, wormed, microchipped, flea treated', 'cat-closeup-small.jpg', 'cat-closeup-thumbnail.jpg');
+INSERT INTO pet_item VALUES (1, 5, 'Candy', 'Cat', 'Domestic Long Hair cross', 'female', 'large', 'Orange', '200.00', 'Adult 1yr', 'desexed, vaccinated, wormed, microchipped, flea treated', 'cat-small.jpg', 'cat-thumbnail.jpg');
+INSERT INTO pet_item VALUES (2, 6, 'Autumn', 'Dog', 'Chihuahua', 'female', 'small', 'Golden grey', '400.00', '3 months old', '', 'Chihuahua2-small.jpg', 'Chihuahua2-thumbnail.jpg');
+INSERT INTO pet_item VALUES (2, 7, 'Darky', 'Dog', 'Chihuahua', 'male', 'small', 'Black', '400.00', '4 months old', '', 'Chihuahua3-small.jpg', 'Chihuahua3-thumbnail.jpg');
+INSERT INTO pet_item VALUES (2, 8, 'Teabag', 'Dog', 'Chihuahua', 'female', 'small', 'Black brown', '400.00', '2 months old', '', 'Chihuahua-small.jpg', 'Chihuahua-thumbnail.jpg');
+INSERT INTO pet_item VALUES (0, 9, 'Sissi', 'Dog', 'Coccer Spaniel', 'female', 'small', 'Golden', '500.00', 'Adult 1yr', '', 'Coccer-Spaniel-small.jpg', 'Coccer-Spaniel-thumbnail.jpg');
+INSERT INTO pet_item VALUES (0, 10, 'Happy', 'Dog', 'Boxer', 'female', 'large', 'White black', '500.00', '3 months old', '', 'Cute-boxer-puppy-small.jpg', 'Cute-boxer-puppy-thumbnail.jpg');
+INSERT INTO pet_item VALUES (0, 11, 'Pearl', 'Dog', 'German Shepherd', 'female', 'large', 'Golden', '260.00', 'Adult 2yrs', '', 'German-Shepherd-dog-small.jpg', 'German-Shepherd-dog-thumbnail.jpg');
+INSERT INTO pet_item VALUES (0, 12, 'Flash', 'Dog', 'Husky', 'male', 'large', 'White black', '600.00', 'Adult 1yr To 7ys (incl)', '', 'husky-small.jpg', 'husky-thumbnail.jpg');
+
+commit;
+
+
+
+
+
+

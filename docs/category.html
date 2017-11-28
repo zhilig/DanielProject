@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>Book Shop</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+
+
+
+
+<script>
+//The loadXMLDoc() function is used to load the XML and XSL files.
+//It checks what kind of browser the user has and loads the file.
+function loadXMLDoc(dname)
+{
+if (window.XMLHttpRequest)
+  {
+  xhttp=new XMLHttpRequest();
+  }
+else
+  {
+  xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xhttp.open("GET",dname,false);
+xhttp.send("");
+return xhttp.responseXML;
+}
+
+/*This function is used to display the XML file styled by the XSL file.
+
+    
+*/
+function displayResult()
+{
+xml=loadXMLDoc("category.xml");
+xsl=loadXMLDoc("category.xsl");
+// code for IE
+if (window.ActiveXObject)
+  {
+  ex=xml.transformNode(xsl);
+  document.getElementById("example").innerHTML=ex;
+  }
+// code for Mozilla, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor=new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml,document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+</script>
+</head>
+<body onload="displayResult()">
+<div id="example" />
+
+</body>
+</html>
